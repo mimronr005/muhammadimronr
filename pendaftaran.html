@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <img src="img/header1.png" alt="" style="width: 100px; height: 100px; margin-left: 30px;">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-2">
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link mr-3" href="home.html">Home</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link mr-3" href="pendaftaran.html">Pendaftaran <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-3" href="tentang.html">Tentang</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner mt-2">
+          <div class="carousel-item active">
+            <img src="img/sidebar1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sidebar2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sidebar3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sidebar4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Kembali</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Lanjut</span>
+        </a>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-sm text-center">
+            <h1>PENDAFTARAN</h1>
+          </div>
+        </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">-NAMA MAHASISWA-</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nama Mahasiswa">
+          <small id="emailHelp" class="form-text text-muted">Coba cek Kebenaran nya Terlebih Dahulu.</small>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">-ALAMAT-</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Alamat">
+            <small id="emailHelp" class="form-text text-muted">Coba cek Kebenaran nya Terlebih Dahulu.</small>
+          </div>
+        
+          <div class="form-group">
+            <label for="disabledSelect">-KOTA-</label>
+            <select id="disabledSelect" class="form-control">
+        <option>-Pilih Kota Anda-</option>
+            <option>Surabaya</option>
+            <option>Malang</option>
+            <option>Mojokerto</option>
+            <option>Sidoarjo</option>
+            <option>Gresik</option>
+            <option>Jakarta</option>
+            <option>BAndung</option>
+            <option>Yogyakarta</option>
+            <option>Solo</option>
+        </select>
+         </div>
+
+         <div class="form-group">
+            <label for="disabledSelect">-PROVINSI-</label>
+            <select id="disabledSelect" class="form-control">
+        <option>-Pilih Provinsi Anda-</option>
+            <option>Jawa Timur</option>
+            <option>Jawa Tengah</option>
+            <option>Jawa Barat</option>
+            <option>Jakarta</option>
+        </select>
+         </div>
+
+         <div class="form-group">
+            <label for="exampleInputPassword1">-PIN-</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan Pin Anda">
+          </div>
+
+         <div class="form-group">
+            <label for="exampleInputEmail1">-USERNAME-</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Username">
+            <small id="emailHelp" class="form-text text-muted">Coba cek Kebenaran nya Terlebih Dahulu.</small>
+          </div>
+        
+        <div class="form-group">
+          <label for="exampleInputPassword1">-PASSWORD-</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan Password Anda">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">-ULANGI PASSWORD-</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ulangi Password Anda">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Masukkan Foto Anda</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Masukkan Berkas-Berkas Anda</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sudah Yakin?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Simpan</button>
+      </form>
+      </div>
+
+      <blockquote class="blockquote bg-light mt-4 text-center">
+        <p class="mb-0">Follow Berbagai media Sosial Kami</p>
+        <footer class="blockquote-footer">@copyraight 2021</footer>
+      </blockquote>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+            
+</body>
+</html>
